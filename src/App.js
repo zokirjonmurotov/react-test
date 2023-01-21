@@ -1,15 +1,16 @@
 import React from "react";
-import Card from "./card";
-import "./App.css";
-import Jirafa from "./assets/jirafa.jpg";
+import MyClass from "./class";
+import MyFunc from "./funtional";
 
-function App() {
-  return (
-    <>
-      <Card />
-      <Card />
-    </>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <MyClass />
+        <MyFunc />
+      </>
+    );
+  }
 }
 
 export default App;
